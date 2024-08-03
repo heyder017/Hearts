@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    font-size: 20px 70px;   
+    background-attachment: fixed;
+}
+
+.menu-horizontal {
+    display: flex;
+    margin: auto;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 25px 60px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.menu-horizontal > li:hover {
+    background-color:rgb(238, 250, 77);
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color:rgb(238, 250, 77) ;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li a {
+    display: block;
+    text-decoration: none;
+
+
+}
+
+
+.logo { 
+    width: 120px;
+    height: 100px;
+    margin-left: 20px; 
+}
+
+body {
+    background-image: url(fondo3.jpg);
+    background-size: cover;
+}   
+
+.contacto {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px
+}
+
+.contenedor-izquierdo{
+    margin: 0 15px;
+}
+
+.contenedor-derecho {
+    margin: 0 15px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+figure img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}

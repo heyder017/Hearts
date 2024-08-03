@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+nav {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    background-color:rgb(255, 255, 255);
+    font-size: 20px;
+    background-attachment: fixed;
+}
+
+.nav {
+    display: flex;
+    margin: auto;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 31px 70px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.nav > li:hover {
+    background-color:rgb(238, 250, 77);
+}
+
+.logo { 
+    width: 120px;
+    height: 100px;
+    margin-left: 20px; 
+}
+
+.cel{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.par{
+    max-width: 600px;
+
+}
+
+body {
+    background-image: url(fondo3.jpg);
+    background-size: cover;
+}
+
+.contacto {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px
+}
+
+.contenedor-izquierdo{
+    margin: 0 15px;
+}
+
+.contenedor-derecho {
+    margin: 0 15px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+figure img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+
+
